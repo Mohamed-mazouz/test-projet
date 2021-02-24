@@ -1,0 +1,376 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+header {
+text-align: center;
+background-color: #fcfcfc;
+}
+
+/* header nav ul li a{
+    text-align: center;
+        
+} */
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+ 
+  ul a:hover{
+      text-decoration: none;
+      color: rgb(18, 67, 216);
+  }
+   ul i:hover{
+      color:  #f55b72;
+  }
+  ul span:hover{
+    color:  #f55b72;
+}
+header nav ul li {
+    list-style-type: none;
+    margin: 20px;
+}
+
+.bk-header {
+    background-image: url(img/background.jpg);
+    padding: 15px;
+    background-size: 120%;
+
+    margin-top: 50px;
+    
+}
+.bk-header h1 {
+    color: white;
+    font-size: 3rem;
+    margin-top: 25px;
+    font-family: 'Candal', sans-serif;
+    line-height: 1.8em;
+
+}
+.bk-header p {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Candal', sans-serif;
+    line-height: 1.8em;
+    text-align: center;
+}
+.bk-header span {
+    display: none;
+}
+.search input {
+    padding: 20px;
+    width: 100%;
+    background-color: #fb8b9b;
+    color: rgb(255, 255, 255);
+    text-align: left ;
+    font-size: 2.2rem;
+    border: none;
+}
+input:focus {
+    outline: 0;
+   
+}
+.container {
+    text-align: center;
+    margin: 10px;
+}
+.container > p {
+    text-align: justify;
+}
+.titre h1 {
+    margin-top: 20px;
+    border: 0.5px dashed rgba(78, 72, 72, 0.452);
+    border-bottom: none;
+    margin: 20px;
+    font-family: 'Candal', sans-serif;
+    padding-top: 15px;
+    font-size: 3rem;
+    text-align: center;
+}
+ .service-col h3 {
+    margin-bottom: 30px;
+    color: #fb8b9b;
+    font-size: 2rem;
+    font-family: 'Candal', sans-serif;
+
+}
+.service-col {
+    margin-top: 50px;
+}
+ p {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 20px;
+}
+.icon i  {
+    font-size: 35px;
+    color: #fb8b9b;
+}
+.icon span {
+    font-size: 35px;
+    color: #fb8b9b;
+}
+header img{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.icon {
+    margin-bottom: -15px;
+}
+.service-col .icon {
+    margin-bottom: 25px;
+}
+/*block 2*/
+.container-1 {
+    text-align: center;
+    margin: 15px;
+}
+.container-1 h1 {
+    margin-top: 20px;
+    border: 0.5px dashed rgba(78, 72, 72, 0.452);
+    border-bottom: none;
+    margin: 20px;
+    font-family: 'Candal', sans-serif;
+    padding-top: 15px;
+    font-size: 3rem;
+}
+ 
+footer {
+    background-color: #213e4e;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+    margin: 0;
+    
+}
+.menu-footer ul li {
+    color: white;
+    list-style-type: none;
+    margin: 20px;
+    font-family: 'Candal', sans-serif;
+    
+}
+.copyright p, a {
+color: white;
+}
+
+/*Page mutualise 2*/
+.container-serveur {
+   
+    margin: 20px;
+}
+.container-serveur  p {
+    text-align: justify;
+    margin: 20px;
+}
+.tr h1 {
+    margin-top: 100px;
+    border: 0.5px dashed rgba(78, 72, 72, 0.452);
+    border-bottom: none;
+    margin: 30px;
+    font-family: 'Candal', sans-serif;
+    padding-top: 20px;
+    font-size: 3rem;
+    text-align: center;
+}
+.serveur-col {
+    margin-top: 50px;
+}
+/* seconde container */
+.sous-block {
+    border: 0.5px dashed rgba(78, 72, 72, 0.452);
+    text-align: center;
+    margin-top: 30px;
+
+}
+ .perso h2 {
+    padding: 20px;
+    background-color: #213e4e;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    font-family: 'Candal', sans-serif;
+}
+.sous-block p {
+    text-align: center;
+}
+.sous-block ul {
+    text-align: left;
+    padding:0 130px;
+    list-style-type: circle;
+}
+.sous-block ul li {
+    text-align: left;
+    line-height: 1.8em;
+    font-size: 15px;
+    
+}
+.prix h2 {
+    font-size: 20px;
+    font-family: 'Candal', sans-serif;
+    color: rgb(88, 87, 87);
+}
+.btn button {
+    color: white;
+     background-color: #fb8b9b ;
+     border: none;
+     font-family: 'Candal', sans-serif;
+     font-size: 20px;
+     padding: 10px 100px;
+}
+
+/*page de didie 3*/
+
+.serveur-dedie p {
+    text-align: justify;
+    margin:40px;
+    line-height: 1.6em;
+    margin-top: 40px;
+}
+/*page contact*/
+.info-contact {
+
+    text-align: center;
+    margin-top: 30px;
+
+}
+.info-contact .icon {
+    margin-top: 50px;
+}
+.info-contact .contact {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.contact p {
+    text-align: center;
+}
+.contact h3 {
+    border-top: 0.5px dashed #fb8b9b;
+    padding-top: 15px;
+}
+/*form deskotop*/
+
+@media screen and (min-width: 1224px){
+    header {
+        padding-top: 30px;
+    }
+    .logo img {
+        width: 100px;
+        margin-top: -25px;
+    }
+    header nav ul  {
+        display: flex;
+      
+        justify-content: space-around;
+    }
+      header ul li {
+        line-height: 5px;
+      }
+    header .icon i {
+        margin-bottom:0;
+       font-size: 25px;
+    }
+    header .icon span {
+        margin-bottom:0;
+       font-size: 25px;
+    }
+ 
+    .bk-header {
+       position:relative;
+        height: 700px;
+      
+    }
+    .bk-header span {
+        display: block;
+    }
+    .bk-header  p{
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 3em;
+     
+    }
+    .bk-header h1 {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 3em;
+    }
+    .container {
+        display: flex;
+    }
+    .container-1 {
+       display: flex; 
+    }
+    .titre h1 {
+        margin-top: 20px;
+        border: 0.5px dashed rgba(78, 72, 72, 0.452);
+        border-bottom: none;
+        margin: 20px;
+        font-family: 'Candal', sans-serif;
+        padding-top: 15px;
+        font-size: 3rem;
+        text-align: center;
+
+    }
+    .titre {
+        margin: 20px;
+    }
+
+    /*page seconde : mutualise / page : dedie*/
+    .blocks {
+
+        display: flex;
+        margin-bottom: 50px;
+    }
+    .sous-block {
+       margin:20px;
+       box-sizing: border-box;
+    }
+
+    .sous-block ul {
+        text-align: left;
+        padding: 0 100px;
+        
+    }
+    main {
+        width:100%;
+    }
+  
+    footer {
+        margin: 0;
+    }
+    .menu-footer ul {
+        display: flex;
+        justify-content: space-around;
+    }
+/*page : contact*/
+.block-contact {
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.contact h3 {
+    border-top: 0.5px dashed #fb8b9b;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+}
